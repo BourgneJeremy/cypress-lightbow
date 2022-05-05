@@ -1,7 +1,9 @@
 /// <reference types="cypress"/>
 
+// to go to the bottom --> .scrollTo('bottom');
+
 // open lightbox page
-context('Lightbow page', () => {
+context('Lightbox page', () => {
     beforeEach(() => {
         cy.visit('../../lightbox.html');
     });
